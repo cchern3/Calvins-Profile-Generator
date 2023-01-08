@@ -22,7 +22,7 @@
   Users may make pull requests, submit bugs or feature requests within the updated code if there is something that could be improved for the README generator.
   ## Tests
   The Employee test file will assess the generation of the new employee.
-  The Manager, Intern, and Engineer test files will assess for the generation of a new employee for the designated role, which is extended from the Employee file, along with their corresponding characteristics and methods. 
+  The Manager, Intern, and Engineer test files will test the gathered data and functions to generate a new employee, which are extended from the Employee file, along with their corresponding characteristics and methods. 
   In the terminal, use the command line and input, "npm run test [file name]" to test a specific file, or utilize "npm run test" to run all of the tests.
   ## Demonstration
   Click this link for a video demonstration: 
