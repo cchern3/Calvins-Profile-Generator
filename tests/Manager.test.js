@@ -1,3 +1,4 @@
+// obtaining data from js manager file
 const Manager = require("../lib/Manager.js");
 // jest.mock("../lib/Manager.js");
 
@@ -11,25 +12,25 @@ test("creates an object for the manager", () => {
     expect(manager.role).toEqual(expect.any(String));
 })
 
-test("receives the manager name", () => {
+test("retrieves the manager name", () => {
     const manager = new Manager("Bob", 10, "Bob@gmail.com", 30);
 
     expect(manager.retrieveName()).toBe("Bob");
 });
 
-test("receives the manager id", () => {
+test("retrieves the manager id", () => {
     const manager = new Manager("Bob", 10, "Bob@gmail.com", 30);
 
     expect(manager.retrieveId()).toBe(10);
 });
 
-test("receives the manager email", () => {
+test("retrieves the manager email", () => {
     const manager = new Manager("Bob", 10, "Bob@gmail.com", 30);
 
     expect(manager.retrieveEmail()).toBe("Bob@gmail.com", 30);
 });
 
-test("receives the manager role", () => {
+test("retrieves the manager role", () => {
     const manager = new Manager("Bob", 10, "Bob@gmail.com", 30);
 
     expect(manager.retrieveRole()).toBe("Manager");

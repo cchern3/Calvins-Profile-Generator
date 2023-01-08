@@ -1,3 +1,4 @@
+// obtaining data from js employee file
 const Employee = require("../lib/Employee.js");
 
 test("creates an object for the employee", () => {
@@ -8,25 +9,25 @@ test("creates an object for the employee", () => {
     expect(employee.email).toEqual(expect.any(String));
 })
 
-test("receives the employee name", () => {
+test("retrieves the employee name", () => {
     const employee = new Employee("Bob", 10, "Bob@gmail.com");
 
     expect(employee.retrieveName()).toBe("Bob");
 });
 
-test("receives the employee id", () => {
+test("retrieves the employee id", () => {
     const employee = new Employee("Bob", 10, "Bob@gmail.com");
 
     expect(employee.retrieveId()).toBe(10);
 });
 
-test("receives the employee email", () => {
+test("retrieves the employee email", () => {
     const employee = new Employee("Bob", 10, "Bob@gmail.com");
 
     expect(employee.retrieveEmail()).toBe("Bob@gmail.com");
 });
 
-test("receives the employee role", () => {
+test("retrieves the employee role", () => {
     const employee = new Employee("Bob", 10, "Bob@gmail.com");
 
     expect(employee.retrieveRole()).toBe("Employee");
