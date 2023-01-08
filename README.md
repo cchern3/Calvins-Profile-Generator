@@ -25,7 +25,7 @@
   The Manager, Intern, and Engineer test files will test the gathered data and functions to generate a new employee, which are extended from the Employee file, along with their corresponding characteristics and methods. 
   In the terminal, use the command line and input, "npm run test [file name]" to test a specific file, or utilize "npm run test" to run all of the tests.
   ## Demonstration
-  Click this link for a video demonstration: https://drive.google.com/file/d/1FKg-r7tfMIMTiwMXh5FLNDcYVADyxO5S/view
+  Click the link for a video demonstration of the challenge: https://drive.google.com/file/d/1FKg-r7tfMIMTiwMXh5FLNDcYVADyxO5S/view
   ## Questions
   Have questions about this project?  
   GitHub: https://github.com/cchern3  
