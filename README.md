@@ -1,4 +1,4 @@
-# Calvins Profile Generator
+# Calvin's Profile Generator
 
   ## Table of Contents
   * [Description](#description)
@@ -19,7 +19,7 @@
   Ensure the software is downloaded and the node packages are initialized. Within the directory for this project, initialize the prompts using the command "node index.js". Answer and input the text following the information provided within the terminal. A new HTML file will be created thereafter!
 
   ## Contributing
-  Users may make pull requests, submit bugs or feature requests within the updated code if there is something that could be improved for the README generator.
+  Users may make pull requests, submit bugs or feature requests within the updated code if there is something that could be improved for this challenge.
   ## Tests
   The Employee test file will assess the generation of the new employee.
   The Manager, Intern, and Engineer test files will test the gathered data and functions to generate a new employee, which are extended from the Employee file, along with their corresponding characteristics and methods. 
