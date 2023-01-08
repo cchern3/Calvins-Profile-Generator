@@ -14,7 +14,7 @@
   ## Languages
   JavaScript, HTML, CSS, OOP (Object Oriented Programming), TDD (Test-Driven Development), Node/NPM, Inquirer, and Jest were used for this challenge.
   ## Installation
-  On the Github repository, click on the "Code" button to then copy the link. To clone the repositry, input within the command-line "git clone [paste link here]" Then input "npm init" to install the Node Package Manager. Additionally, use the command "npm install inquirer" to obtain the npm's inquirer package. Input into the command-line "npm install jest --save-dev". Also be ensure that "jest" is within the test value in the package.json.
+  On the Github repository, click on the "Code" button to then copy the link. To clone the repository, input in the command-line, "git clone [paste link here]." Then input "npm init" to install the Node Package Manager. Additionally, use the command "npm install inquirer" to obtain the npm's inquirer package. Input into the command-line "npm install jest --save-dev". Make sure "jest" is within the test value in the package.json.
   ## Usage
   Ensure the software is downloaded and the node packages are initialized. Within the directory for this project, initialize the prompts using the command "node index.js". Answer and input the text following the information provided within the terminal. A new HTML file will be created thereafter!
 
