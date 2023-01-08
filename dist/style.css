@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: steelblue;
+    font-size: 75px;
+}
+
+.link {
+    color: rgb(255, 242, 64);
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(62, 132, 218), rgb(105, 161, 206));
+    text-align: left;
+    box-shadow: 8px 5px 5px 0px rgba(57, 57, 57, 0.2);
+}
+
+
+  
